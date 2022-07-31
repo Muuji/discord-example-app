@@ -35,6 +35,6 @@ def add_to_guild(access_token, userID):
         response = requests.put(url=url, headers=headers, json=data)
         print(response.text)
 
-code = exchange_code('zBcNKwnt0BlM24Fzol1DRSoLiwxnx3')['access_token']
+code = exchange_code('yMbumAHGD6UpyEGwauK8ljH3tpBllg')['access_token']
 print(code)
 add_to_guild(code, '988147732751478784')
